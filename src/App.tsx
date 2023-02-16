@@ -73,12 +73,24 @@ const App = () => {
             </div>
             <div className={styles['section']}>
               <p className={styles['section-label']}>Text</p>
+              <div className={styles['field-container']}>
+                <div className={styles['big-label-container']}><span className={styles['label']}>Poppins</span></div>
+                <div className={styles['value-container']}><span contentEditable={true} className={styles['value']}>10</span></div>
+              </div>
             </div>
             <div className={styles['section']}>
               <p className={styles['section-label']}>Layer</p>
+              <div className={styles['field-container']}>
+                <div className={styles['big-label-container']}><span className={styles['label']}>Pass through</span></div>
+                <div className={styles['value-container']}><span contentEditable={true} className={styles['value']}>100%</span></div>
+              </div>
             </div>
             <div className={styles['section']}>
               <p className={styles['section-label']}>Fill</p>
+              <div className={styles['field-container']}>
+                <div className={styles['big-label-container']}><div className={styles['color-block']} /><span className={styles['label']}>625DF5</span></div>
+                <div className={styles['value-container']}><span contentEditable={true} className={styles['value']}>100%</span></div>
+              </div>
             </div>
             <div className={styles['section']}>
               <p className={styles['section-label']}>Effects</p>
