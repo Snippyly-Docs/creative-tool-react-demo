@@ -5,7 +5,7 @@ import CircleIcon from '../../icons/circle.svg';
 import TextIcon from '../../icons/text.svg';
 import CommentIcon from '../../icons/comment.svg';
 
-import { SnippylyPresence, SnippylyCommentTool } from '@snippyly/react';
+import { SnippylyPresence, SnippylyCommentTool, SnippylyRecorderTool } from '@snippyly/react';
 
 
 const Topbar = () => {
@@ -21,6 +21,7 @@ const Topbar = () => {
         <SnippylyCommentTool />
       </div>
       <div className={styles['presence-container']}>
+        <SnippylyRecorderTool />
         <SnippylyPresence containerClass={styles['comment-tool']} />
       </div>
     </div>
