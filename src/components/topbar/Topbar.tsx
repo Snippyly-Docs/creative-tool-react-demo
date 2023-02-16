@@ -8,7 +8,6 @@ import CommentIcon from '../../icons/comment.svg';
 
 const Topbar = () => {
 
-
   return (
 
     <div className={styles['topbar']}>
