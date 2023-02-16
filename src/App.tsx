@@ -22,7 +22,7 @@ const App = () => {
 
     const user = generateUserData();
     client.identify(user);
-    client.setDocumentId('project_id');
+    client.setDocumentId('creative_tool_project_id');
 
   }, [client]);
 
