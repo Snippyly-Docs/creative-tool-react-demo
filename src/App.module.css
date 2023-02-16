@@ -35,6 +35,7 @@
   color: white;
   margin: 0;
   font-weight: 100;
+  font-size: 1.3vw;
 }
 
 .section-label {
@@ -59,7 +60,7 @@
 }
 
 .label-container {
-  width: 1.4vw;
+  width: 1.8vw;
 }
 
 .label {
@@ -67,15 +68,22 @@
   color: #91919C;
   margin: 0;
   justify-self: flex-end;
+  font-size: 1.1vw;
 }
 
 .value {
   color: white;
   justify-self: flex-end;
+  font-size: 1vw;
 }
 
 .alignment {
   display: flex;
   width: 40%;
   gap: 1vw;
+}
+
+.alignment > img {
+  height: 1.3vw;
+  width: 1.3vw;
 }

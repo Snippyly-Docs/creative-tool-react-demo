@@ -17,8 +17,10 @@
   justify-content: space-between;
 }
 
-.topbar > img {
+.toolbar > img {
   cursor: pointer;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 .toolbar {

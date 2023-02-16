@@ -59,7 +59,7 @@ const App = () => {
                   <div className={styles['field-container']}>
                     <div className={styles['label-container']}><span className={styles['label']}>H</span></div>
                     <div className={styles['value-container']}><span contentEditable={true} className={styles['value']}>120</span></div>
-                 d </div>
+                  </div>
                 </div>
               </div>
             </div>

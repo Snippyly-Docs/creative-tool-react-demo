@@ -27,6 +27,7 @@
 .navbar > a {
   cursor: pointer;
   color: #FFFFFF;
+  font-size: 1.2vw;
 }
 
 .logo {
