@@ -20,8 +20,9 @@ const App = () => {
 
     if (!client) return;
 
-    // const user = generateUserData();
-    // client.identify(user);
+    const user = generateUserData();
+    client.identify(user);
+    client.setDocumentId('project_id');
 
   }, [client]);
 
