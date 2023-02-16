@@ -36,3 +36,13 @@
   align-items: center;
   margin-right: 1.4vw;
 }
+
+.comment-tool {
+  display: block;
+}
+
+snippyly-comment-tool > div {
+  display: block !important;
+  height: 2.5vh;
+  width: 2.5vh;
+}

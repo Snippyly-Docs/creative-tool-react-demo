@@ -18,6 +18,7 @@
   right: 0;
   top: 6.7vh;
   bottom: 0;
+  height: calc(100vh - 6.7vh);
   width: calc(100vw - 77.8vw);
   background-color: #141416;
   z-index: 2;
@@ -27,7 +28,7 @@
 
 .section {
   width: 100%;
-  padding: 1.9vw;
+  padding: 1.3vw;
   border-bottom: 1px solid #222226;
 }
 
@@ -35,7 +36,7 @@
   color: white;
   margin: 0;
   font-weight: 100;
-  font-size: 1.3vw;
+  font-size: 1vw;
 }
 
 .section-label {
@@ -74,13 +75,13 @@
   color: #91919C;
   margin: 0;
   justify-self: flex-end;
-  font-size: 1.1vw;
+  font-size: 0.9vw;
 }
 
 .value {
   color: white;
   justify-self: flex-end;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 
 .alignment {

@@ -37,7 +37,7 @@ const App = () => {
         }
 
         sidebar={
-          <div className={styles['sidebar']}>
+          <div data-snippyly-comment-disabled className={styles['sidebar']}>
             <div className={styles['section']}>
               <p className={styles['section-label']}>Size</p>
               <div className={styles['double-field']}>

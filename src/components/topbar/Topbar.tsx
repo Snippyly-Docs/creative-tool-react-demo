@@ -5,23 +5,23 @@ import CircleIcon from '../../icons/circle.svg';
 import TextIcon from '../../icons/text.svg';
 import CommentIcon from '../../icons/comment.svg';
 
-import { SnippylyPresence } from '@snippyly/react';
+import { SnippylyPresence, SnippylyCommentTool } from '@snippyly/react';
 
 
 const Topbar = () => {
 
   return (
 
-    <div className={styles['topbar']}>
+    <div data-snippyly-comment-disabled className={styles['topbar']}>
       <div className={styles['toolbar']}>
         <div className={styles['avatar']}></div>
         <img src={PenIcon} />
         <img src={CircleIcon} />
         <img src={TextIcon} />
-        <img src={CommentIcon} />
+        <SnippylyCommentTool />
       </div>
       <div className={styles['presence-container']}>
-        <SnippylyPresence />
+        <SnippylyPresence containerClass={styles['comment-tool']} />
       </div>
     </div>
   );

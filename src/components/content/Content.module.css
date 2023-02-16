@@ -10,6 +10,7 @@
   background: linear-gradient(146.81deg, #1C0B4E 5.58%, #130D35 79.49%), #130E35;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .navbar {
