@@ -23,7 +23,7 @@ const Topbar = () => {
       <div className={styles['presence-container']}>
         <SnippylyRecorderTool type="all" />
         <SnippylyHuddleTool type="all" />
-        <SnippylyPresence containerClass={styles['comment-tool']} />
+        <SnippylyPresence />
       </div>
     </div>
   );
