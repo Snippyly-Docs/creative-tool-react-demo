@@ -1,12 +1,12 @@
 import styles from './Content.module.css';
 
 import CardImage from '../../icons/card.svg';
-// import Draggable from "react-draggable";
+import Draggable from "react-draggable";
 
 const Content = () => {
 
   return (
-    // <Draggable>
+    <Draggable>
       <div className={styles['content']}>
         <div className={styles['navbar']}>
           <div className={styles['logo']}></div>
@@ -25,7 +25,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-    // </Draggable>
+    </Draggable>
   );
 }
 

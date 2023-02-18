@@ -14,6 +14,10 @@ import AlignRightIcon from './icons/align-right.svg';
 
 const App = () => {
 
+  /**
+   * Snippyly Code Example
+   * Initializes the Snippyly SDK.
+   */
   const { client } = useSnippylyClient();
 
   useEffect(() => {
