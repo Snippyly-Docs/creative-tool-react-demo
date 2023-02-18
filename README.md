@@ -1,6 +1,14 @@
-# Base React Demo
+# Creative Tool React Demo
 
-This repo serves as a template for a basic setup of React v18 + TS created with `create-react-app`, and with the **Snippyly SDK** pre-installed with a test API key.
+This is an example Creative Tool React app with Snippyly SDK features.
+
+## Features
+
+* Presence
+* Live Cursors
+* Huddle
+* Recorder
+* Comments
 
 ## Code Examples
 
