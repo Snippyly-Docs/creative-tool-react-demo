@@ -4,7 +4,7 @@ import PenIcon from '../../icons/pen.svg';
 import CircleIcon from '../../icons/circle.svg';
 import TextIcon from '../../icons/text.svg';
 
-import { SnippylyPresence, SnippylyCommentTool, SnippylyRecorderTool, SnippylyHuddleTool } from '@snippyly/react';
+import { SnippylyPresence, SnippylyCommentTool, SnippylyRecorderTool, SnippylyHuddleTool, SnippylyTagTool, SnippylySidebarButton } from '@snippyly/react';
 
 
 const Topbar = () => {
@@ -31,6 +31,8 @@ const Topbar = () => {
          * Feature: Huddle -- Step #2
          * Feature: Presence -- Step #1
          */}
+        <SnippylyTagTool />
+        <SnippylySidebarButton />
         <SnippylyRecorderTool type="all" />
         <SnippylyHuddleTool type="all" />
         <SnippylyPresence />
