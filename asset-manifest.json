@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/creative-tool-react-demo/static/css/main.971190af.css",
-    "main.js": "/creative-tool-react-demo/static/js/main.8e373983.js",
+    "main.js": "/creative-tool-react-demo/static/js/main.c9dfb38c.js",
     "static/media/card.svg": "/creative-tool-react-demo/static/media/card.104e7faa18e6f7a0b04a76335060f99a.svg",
     "static/media/pen.svg": "/creative-tool-react-demo/static/media/pen.f966f0915660fa93a2cb1b1040751160.svg",
     "index.html": "/creative-tool-react-demo/index.html",
@@ -11,10 +11,10 @@
     "static/media/text.svg": "/creative-tool-react-demo/static/media/text.6ef2df0ad4ff88b280614ab387c7dd7c.svg",
     "static/media/circle.svg": "/creative-tool-react-demo/static/media/circle.2627f5c4550009d9fe96c606f267d5ad.svg",
     "main.971190af.css.map": "/creative-tool-react-demo/static/css/main.971190af.css.map",
-    "main.8e373983.js.map": "/creative-tool-react-demo/static/js/main.8e373983.js.map"
+    "main.c9dfb38c.js.map": "/creative-tool-react-demo/static/js/main.c9dfb38c.js.map"
   },
   "entrypoints": [
     "static/css/main.971190af.css",
-    "static/js/main.8e373983.js"
+    "static/js/main.c9dfb38c.js"
   ]
 }
