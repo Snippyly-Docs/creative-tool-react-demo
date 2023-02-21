@@ -6,21 +6,19 @@ import { SnippylyProvider, SnippylyCursor, SnippylyComments, SnippylyRecorderCon
 const rootContainer = document.getElementById('root');
 const root = createRoot(rootContainer as HTMLElement);
 root.render(
-  <React.StrictMode>
-    <SnippylyProvider apiKey="WDMgKshFEsPTqvBjUcH3">
-      {/**
+  <SnippylyProvider apiKey="WDMgKshFEsPTqvBjUcH3">
+    {/**
        * Snippyly Code Example
        * Feature: Comments -- Step #1
        * Feature: Recorder -- Step #1
        * Feature: Live Cursors -- Step #1
        * Feature: Huddle -- Step #1
        */}
-      <SnippylyComments />
-      <SnippylyRecorderControlPanel />
-      <SnippylyRecorderNotes />
-      <SnippylyCursor />
-      <SnippylyHuddle />
-      <App />
-    </SnippylyProvider>
-  </React.StrictMode>
+    <SnippylyComments />
+    <SnippylyRecorderControlPanel />
+    <SnippylyRecorderNotes />
+    <SnippylyCursor />
+    <SnippylyHuddle />
+    <App />
+  </SnippylyProvider>
 );
