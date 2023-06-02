@@ -43,25 +43,25 @@
   display: block;
 }
 
-snippyly-recorder-tool {
+velt-recorder-tool {
   border: 1px solid #8f95b2;
   border-radius: 50px;
 }
 
-snippyly-huddle-tool {
+velt-huddle-tool {
   border: 1px solid #8f95b2;
   border-radius: 50px;
 }
 
-snippyly-presence {
+velt-presence {
   margin-top: 0.5vh;
   margin-left: 0.4vw;
 }
 
-snippyly-comment-tool {
+velt-comment-tool {
   margin-top: 0.8vh;
 }
 
-snippyly-tag-tool {
+velt-tag-tool {
   margin-top: 0.8vh;
 }

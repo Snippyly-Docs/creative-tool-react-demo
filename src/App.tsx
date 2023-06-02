@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useSnippylyClient } from '@snippyly/react';
+import { useVeltClient } from '@veltdev/react';
 import { generateUserData } from './util/user';
 import styles from './App.module.css';
 
@@ -12,10 +12,10 @@ import Sidebar from './components/sidebar/Sidebar';
 const App = () => {
 
   /**
-   * Snippyly Code Example
-   * Initializes the Snippyly SDK.
+   * Velt Code Example
+   * Initializes the Velt SDK.
    */
-  const { client } = useSnippylyClient();
+  const { client } = useVeltClient();
 
   useEffect(() => {
 
@@ -31,7 +31,7 @@ const App = () => {
 
     if (!client) return;
 
-    client.getPresenceElement().getOnlineUsersOnCurrentDocument().subscribe(users => {
+    client.getPresenceElement().getOnlineUsersOnCurrentDocument().subscribe((users: any) => {
       if (users === null) return;
       if (users.length === 0) {
         const isDataReset = window.sessionStorage.getItem('_snippyly_demo_reset');
