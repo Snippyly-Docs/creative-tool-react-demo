@@ -8,7 +8,7 @@ import AlignRightIcon from '../../icons/align-right.svg';
 const Sidebar = () => {
 
   return (
-    <div data-snippyly-comment-disabled className={styles['sidebar']}>
+    <div data-velt-comment-disabled className={styles['sidebar']}>
       <div className={styles['section']}>
         <p className={styles['section-label']}>Size</p>
         <div className={styles['double-field']}>

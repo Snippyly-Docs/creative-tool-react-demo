@@ -4,36 +4,36 @@ import PenIcon from '../../icons/pen.svg';
 import CircleIcon from '../../icons/circle.svg';
 import TextIcon from '../../icons/text.svg';
 
-import { SnippylyPresence, SnippylyCommentTool, SnippylyRecorderTool, SnippylyHuddleTool } from '@snippyly/react';
+import { VeltPresence, VeltCommentTool, VeltRecorderTool, VeltHuddleTool } from '@veltdev/react';
 
 
 const Topbar = () => {
 
   return (
 
-    <div data-snippyly-comment-disabled className={styles['topbar']}>
+    <div data-velt-comment-disabled className={styles['topbar']}>
       <div className={styles['toolbar']}>
         <div className={styles['avatar']}></div>
         <img src={PenIcon} />
         <img src={CircleIcon} />
         <img src={TextIcon} />
         {/**
-         * Snippyly Code Example
+         * Velt Code Example
          * Feature: Comments -- Step #2
          * Add the comment tool so users can initiate comments.
          */}
-        <SnippylyCommentTool />
+        <VeltCommentTool />
       </div>
       <div className={styles['presence-container']}>
         {/**
-         * Snippyly Code Example
+         * Velt Code Example
          * Feature: Recorder -- Step #2
          * Feature: Huddle -- Step #2
          * Feature: Presence -- Step #1
          */}
-        <SnippylyRecorderTool type="all" />
-        <SnippylyHuddleTool type="all" />
-        <SnippylyPresence />
+        <VeltRecorderTool type="all" />
+        <VeltHuddleTool type="all" />
+        <VeltPresence />
       </div>
     </div>
   );
